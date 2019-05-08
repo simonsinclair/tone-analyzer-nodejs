@@ -19,10 +19,10 @@
   <!-- top level heading -->
   <header class="_demo--heading">
     <div class="_demo--container">
-      <a class="wordmark" href="https://www.ibm.com/watson/developer/">
+      <!-- <a class="wordmark" href="https://www.ibm.com/watson/developer/">
         <span class="wordmark--left"><$= __('header-ibm') $></span>
         <span class="wordmark--right"><$= __('header-wdc') $></span>
-      </a>
+      </a> -->
     </div>
   </header>
   <div class="_demo--banner banner">
@@ -39,12 +39,12 @@
           <div class="banner--service-description">
             <$= __( 'header-description') $>
           </div>
-          <div class="banner--gdpr-description">
+          <!-- <div class="banner--gdpr-description">
             <$= __("gdpr-description") $>
-          </div>
+          </div> -->
         </div>
       </div>
-      <div class="banner--service-resource-container">
+      <!-- <div class="banner--service-resource-container">
         <div class="banner--row">
           <div class="banner--service-resource">
             <span class="icon icon-link"></span>
@@ -76,7 +76,7 @@
             </li>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -84,28 +84,28 @@
   <div class="_demo--container">
     <article class="_content base--article">
       <div class="input">
-        <h2 class="base--h2"><$= __('header-sample-use-cases') $></h2>
-        <p class="base--p input--description">
+        <!-- <h2 class="base--h2"><$= __('header-sample-use-cases') $></h2> -->
+        <!-- <p class="base--p input--description">
           <$= __( 'input-description') $>
             <a class="base--a" href="https://cloud.ibm.com/docs/services/tone-analyzer/index.html#about" target="new">
               <$= __( 'header-learn-more') $>
-            </a>.</p>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-tweets" name="rb" value="tweets" checked="true">
-        <label class="base--inline-label input--radio-label" for="input-tweets"><$= __('radio-input-tweets') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-online-review" name="rb" value="review">
-        <label class="base--inline-label input--radio-label" for="input-online-review"><$= __('radio-input-review') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-email" name="rb" value="email">
-        <label class="base--inline-label input--radio-label" for="input-email"><$= __('radio-input-email') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-lang-fr" name="rb" value="review-fr">
-        <label class="base--inline-label input--radio-label" for="input-lang-fr"><$= __('radio-input-lang-fr') $></label>
-        <input role="radio" class="base--radio input--radio" type="radio" id="input-own-text" name="rb" value="own-text">
-        <label class="base--inline-label input--radio-label" for="input-own-text"><$= __('radio-input-own-text') $></label>
-        <p class="base--p input--description">
+            </a>.</p> -->
+        <!-- <input role="radio" class="base--radio input--radio" type="radio" id="input-tweets" name="rb" value="tweets"> -->
+        <!-- <label class="base--inline-label input--radio-label" for="input-tweets"><$= __('radio-input-tweets') $></label> -->
+        <!-- <input role="radio" class="base--radio input--radio" type="radio" id="input-online-review" name="rb" value="review"> -->
+        <!-- <label class="base--inline-label input--radio-label" for="input-online-review"><$= __('radio-input-review') $></label> -->
+        <!-- <input role="radio" class="base--radio input--radio" type="radio" id="input-email" name="rb" value="email"> -->
+        <!-- <label class="base--inline-label input--radio-label" for="input-email"><$= __('radio-input-email') $></label> -->
+        <!-- <input role="radio" class="base--radio input--radio" type="radio" id="input-lang-fr" name="rb" value="review-fr"> -->
+        <!-- <label class="base--inline-label input--radio-label" for="input-lang-fr"><$= __('radio-input-lang-fr') $></label> -->
+        <input role="radio" class="base--radio input--radio" type="radio" id="input-own-text" name="rb" value="own-text" checked="true" hidden="true">
+        <!-- <label class="base--inline-label input--radio-label" for="input-own-text"><$= __('radio-input-own-text') $></label> -->
+        <!-- <p class="base--p input--description">
           <$= __( 'input-description-customer-engagement') $>
             <a class="base--a" href="http://customer-engagement-demo.ng.bluemix.net" target="new">
               <$= __( 'input-description-customer-engagement-endpoint') $>
-            </a>.</p>
-        <hr class="base--hr input--hr">
+            </a>.</p> -->
+        <!-- <hr class="base--hr input--hr"> -->
         <div class="panel">
           <textarea class="base--textarea input--textarea" rows="7"></textarea>
           <div class="input--choose own-text-language-selector-radio original-text--tooltip-container_hidden">
@@ -136,11 +136,11 @@
         <p class="base--p output--document-description">
           <$= __( 'output-description') $>
         </p>
-        <p class="base--p output--document-description">
+        <!-- <p class="base--p output--document-description">
           <$= __( 'output-description-interpret') $>
             <a class="base--a" target="_blank" href="https://cloud.ibm.com/docs/services/tone-analyzer/using-tone.html#using-the-general-purpose-endpoint">
               <$= __( 'output-description-understand-score') $>
-            </a>.</p>
+            </a>.</p> -->
         <h3 class="base--h3 output--document-title"><$= __('header-document') $></h3>
 
         <div class="summary--row">
@@ -254,7 +254,7 @@
       </div>
     </article>
   </div>
-  <div class="_demo--banner bottom-banner ">
+  <!-- <div class="_demo--banner bottom-banner ">
 
     <div class="footer-banner">
       <div class="_demo--container footer-container">
@@ -271,7 +271,7 @@
         <a class="base--a bottom-links" href="https://github.com/watson-developer-cloud/tone-analyzer-nodejs" target="_blank"><$= __( 'header-fork') $></a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <script type="text/html" id="emotionBarGraphTemplate">
     <% _.each(items, function(item, key, list) { %>
